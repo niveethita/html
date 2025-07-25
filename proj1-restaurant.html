@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>myBurgerLab</title>
+    <style>
+      h1 {color:darkblue;}
+      h2 {color:darkgreen;}
+      h3 {color:darkolivegreen;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <img width= "300"
+        id = "header-img"
+        src = "https://tse2.mm.bing.net/th/id/OIP.RQGHmz7-7DRi3mXrlh2T2QHaD4?rs=1&pid=ImgDetMain&o=7&rm=3"
+        />
+      <h1>myBurgerLab</h1>
+      <a href = "#menu">Menu</a> <br>
+      <a href = "#order-form">Order Form</a><br>
+    </header>
+    <main>
+      <section id="menu">
+        <br><h2>Menu</h2>
+        <article>
+          <img 
+            width ="200"
+            src = "https://myburgerlab.com/static/img/menu/products/v3/img_beef_bm.webp"
+            alt = "Beautiful Mess"
+            />
+          <h3>Beautiful Mess</h3>
+          <p><i>Angus Cheeseburger, Runny Egg, Fried Portobello Strips, Shredded Lettuce, Grilled Onions, Signature Burger Sauce, Honey Mustard.</i></p>
+        </article><br>
+        <article>
+          <img 
+            width ="200"
+            src = "https://myburgerlab.com/static/img/menu/products/v3/img_meatless_bondi-kicker.webp"
+            alt = "Bondi Kickers"
+            />
+          <h3>Bondi Kickers</h3>
+          <p><i>Fried Whole Portobello Mushroom, Oporto Sauce, Pineapple, Natural Cheese, Shredded Lettuce, Sriracha Mayo.</i></p>
+        </article><br>
+        <article>
+          <img 
+            width ="200"
+            src = "https://myburgerlab.com/static/img/menu/products/v3/img_chicken_joe-burger.webp"
+            alt = "Sloppy Joe's"
+            />
+          <h3>Sloppy Joe's</h3>
+          <p><i>Fried Chicken Thigh, Sloppy Chicken, Natural Cheese, Shredded Lettuce.</i></p>
+        </article><br>
+      </section>
+      <section id="order-form">
+        <h2>Place Your Order</h2>
+        <form>
+          <label>Beautiful Mess <input type = "number" min=0 required></label><br>
+          <label>Bondi Kickers <input type = "number" min=0 required></label><br>
+          <label>Sloppy Joe's <input type = "number" min=0 required></label><br>
+          <p>Sides</p>
+          <label><input type= "radio" name="option" required> Awesome Fries<br></label>
+          <label><input type= "radio" name="option" required> Salsa Nachos<br></label>
+          <label><input type= "radio" name="option" required> Mac & Cheese<br></label>
+          <label><input type= "radio" name="option" required> No<br></label>
+          <p>Drinks</p>
+          <label><input type= "radio" name="option2"> Bottomless Soda<br></label>
+          <label><input type= "radio" name="option2"> Honey Calamansi Tea<br></label>
+          <label><input type= "radio" name="option2"> In-house Lemonade<br></label>
+          <label><input type= "radio" name="option2"> No<br>
+          <p>Add-Ons</p>
+          <label><input type= "checkbox"> Mushroom Fries</label><br>
+          <label><input type= "checkbox"> Chicken Nuggets</label><br>
+          <label><input type= "checkbox"> Karate Chicken</label><br><br>
+          <p>Any Special Requests</p>
+          <textarea></textarea>
+          <br><br><label><input type="submit" value="Go To Checkout"></label>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Made with love by @nve</p>
+    </footer>
+  </body>
+</html>
