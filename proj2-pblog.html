@@ -8,32 +8,68 @@
     </head>
     <body>
         <header>
-
+            <h1>Personal Page</h1>
+            <nav>
+                <ul>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#projects">My Projects</a> </li>
+                    <li> <a href="#contacts">Contacts</a> </li>
+                </ul>
+            </nav>
         </header>
         <main>
             <section class="diff-sections" id="about">
-                <img id="profile" alt="profile pic" src="https://th.bing.com/th/id/OIP.Ea13kjkam1b91w23c-I9AQHaHa?w=182&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3">
-                <p>Hey, I'm Niveethita. Nice to have you here!<br> 
-                I'm an undergrad passionate who’s always curious and down to learn something new. I’m currently exploring front-end development and how tech can be used for something meaningful. 
-                When I’m not coding I enjoy indulging in music, my favorite way to unwind and reset.</p>
-                <p>A little bit of what I love, what inspires me, and what feels like me</p>
-                <img src="https://wallpapercave.com/wp/wp6195089.jpg" id="grid1">
-                <img src="https://gumlet.assettype.com/freepressjournal/2023-08/901772d0-231e-454f-8102-4012f804e796/DSC00651.JPG" id="grid2">
-                <img src="https://static.moviecrow.com/gallery/20210602/186089-Ilayaraja%20Rare%20Images%2025.jpg" id="grid3">
-                <img src="https://wallpapercave.com/wp/wp8469359.jpg" id="grid4">
-                <img src="https://wallpaperaccess.com/full/1254145.jpg" id="grid5">
-                <img src="https://cdn.stocksnap.io/img-thumbs/960w/ocean-sunset_LIACSHZVRO.jpg" id="grid6">
-                
+                <h2><b>About</b></h2>
+                <article id="intro">
+                    <p>
+                    <img id="profile" alt="profile pic" src="https://i.pinimg.com/originals/a5/19/df/a519dfd146c1bd477bcd841afe02d7de.png">
+                    <br>Hey, I'm Niveethita. Nice to have you here!<br> 
+                    I'm an undergrad passionate who’s always curious and down to learn something new. I’m currently exploring front-end development and how tech can be used for something meaningful. 
+                    When I’m not coding I enjoy indulging in music, my favorite way to unwind and reset.</p>
+                </article>
+                <article id="grids">
+                    <p><i>A little bit of what I love, what inspires me, and what feels like me</i></p>
+                    <img src="https://wallpapercave.com/wp/wp6195089.jpg" class="grid" id="grid1">
+                    <img src="https://gumlet.assettype.com/freepressjournal/2023-08/901772d0-231e-454f-8102-4012f804e796/DSC00651.JPG" class="grid" id="grid2">
+                    <img src="https://static.moviecrow.com/gallery/20210602/186089-Ilayaraja%20Rare%20Images%2025.jpg" class="grid"  id="grid3"><br>
+                    <img src="https://wallpapercave.com/wp/wp8469359.jpg" class="grid" id="grid4">
+                    <img src="https://wallpaperaccess.com/full/1254145.jpg" class="grid" id="grid5">
+                    <img src="https://cdn.stocksnap.io/img-thumbs/960w/ocean-sunset_LIACSHZVRO.jpg" class="grid" id="grid6">
+                </article>
             </section>
             <section class="diff-sections" id="projects">
+                <h2><b>My Projects</b></h2>
+                <p>A basic restaurant menu page built using only HTML. 
+                This project was a way for me to explore how to structure content using semantic tags and create a clean, readable layout without any styling or interactivity. 
+                Simple, but a good start to practicing the fundamentals.<br></p>
+                <a href="https://github.com/niveethita/html/blob/main/proj1-restaurant.html">
+                    <img alt = "github" src="https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png" id="github">
+                </a>
                 
             </section>
             <section class="diff-sections" id="contacts">
-
+                <h2><b>Contact Me!</b></h2>
+                <p>Feel free to reach out if you have any questions, feedback, or just want to connect. I'm always open to a good chat or collaboration!</p>
+                <a href="https://github.com/niveethita">
+                    <img src="https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png" class="logos"> 
+                </a>
+                <a href="https://www.linkedin.com/in/niveethita-pandia-rajan-4b2768331/">
+                    <img src="https://freelogopng.com/images/all_img/1656994883linkedin-logo-transparent.png" class="logos"> 
+                </a>
+                <a href="mailto:niveethitapandiaraja@gmail.com">
+                    <img src="https://www.pngall.com/wp-content/uploads/12/Gmail-Logo-PNG-Images.png" class="logos">
+                </a>
             </section>
         </main>
         <footer>
-            
+            <h3>Any Questions?</h3>
+            <p>Have something to say? Drop me a message below, I’d love to hear from you!</p>
+            <form>
+                Name: <input type ="text" ><br>
+                Email: <input type ="email"><br>
+                Message: <br><textarea rows="5" placeholder="Write a message here!"></textarea> 
+                <br> <input type="submit">
+            </form>
         </footer>
     </body>
 </html>

@@ -1,8 +1,62 @@
-#about {
-    background-color: lightcyan;
+header {
+    background-color:rgb(127, 160, 142);
 }
 
-img {
-    width: 300px;
-    height: 300px;
+#about {
+    background-color: lightcyan;
+    text-align: center;
+}
+
+#projects {
+    background-color: rgb(244, 206, 193);
+    text-align: center;
+}
+
+#contacts {
+    background-color: lightgray;
+    text-align: center;
+}
+
+#profile{
+    width : 125px;
+}
+
+#github {
+    width: 100px;
+}
+
+.logos {
+    width: 50px;
+}
+
+.grid {
+    width: 175px;
+    height: 175px;
+    border-radius: 5%;
+}
+
+footer {
+    background-color: rgb(127, 160, 142);
+    text-align: center;
+}
+
+nav > ul {
+  margin: 5px 0;
+  text-align: center;
+}
+
+nav li {
+ background-color:rgb(23, 70, 44);
+  padding: 2px;
+  margin: 1em auto;
+  width: 10%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+a {
+    color: rgb(157, 192, 159);
 }
