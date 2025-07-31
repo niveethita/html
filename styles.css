@@ -2,19 +2,21 @@ header {
     background-color:rgb(127, 160, 142);
 }
 
+#about, #projects, #contacts, #header, #footer {
+    text-align: center;
+    padding: 15px;
+}
+
 #about {
     background-color: lightcyan;
-    text-align: center;
 }
 
 #projects {
     background-color: #f4cec1;
-    text-align: center;
 }
 
 #contacts {
     background-color: lightgray;
-    text-align: center;
     margin: auto;
 }
 
