@@ -8,13 +8,14 @@ header {
 }
 
 #projects {
-    background-color: rgb(244, 206, 193);
+    background-color: #f4cec1;
     text-align: center;
 }
 
 #contacts {
     background-color: lightgray;
     text-align: center;
+    margin: auto;
 }
 
 #profile{
@@ -59,4 +60,10 @@ nav li {
 
 a {
     color: rgb(157, 192, 159);
+}
+
+* {
+  box-sizing: border-box;
+    margin: 0;
+  padding: 0;
 }
